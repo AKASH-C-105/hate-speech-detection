@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .card { padding: 15px; border-radius: 8px; margin: 10px 0; color: white; }
+        .happy { background-color: green; }
+        .hate { background-color: red; }
+        .offensive { background-color: orange; }
+        .spam { background-color: purple; }
+        .neutral { background-color: gray; }
+    </style>
+</head>
+<body>
+    <h1>Classification Results</h1>
+    {% for item in results %}
+        <div class="card {{ item.label|lower }}">
+            <h4>{{ item.label }} Sentiment</h4>
+            <p>{{ item.text }}</p>
+        </div>
+    {% endfor %}
+    <a href="/">Go Back</a>
+</body>
+</html>

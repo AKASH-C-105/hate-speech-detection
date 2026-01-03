@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Sentiment Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .card { padding: 15px; border-radius: 8px; margin: 10px 0; color: white; }
+        .happy { background-color: green; }
+        .hate { background-color: red; }
+        .offensive { background-color: orange; }
+        .spam { background-color: purple; }
+        .neutral { background-color: gray; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Twitter Sentiment Analysis</h1>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>
+            <input type="radio" name="option" value="text" checked> Input Text
+        </label><br>
+        <textarea name="user_text" rows="4" cols="50" placeholder="Enter text here..."></textarea><br><br>
+
+        <label>
+            <input type="radio" name="option" value="tweets"> Get Tweets from User
+        </label><br>
+        <input type="text" name="username" placeholder="Enter Twitter username"><br><br>
+
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
