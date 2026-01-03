@@ -27,17 +27,20 @@ A powerful AI-powered application that classifies text and tweets into categorie
 <!-- 🖼️ IMAGE 2: Main app interface screenshot -->
 ### Main Interface
 <!-- ![Main Interface](images/main_interface.png) -->
-*Add screenshot of the main app interface here*
+<img  width="889" height="500" alt="image" src="https://github.com/user-attachments/assets/8fc738f8-e66a-4105-80e1-4f5f1175856c" />
+
 
 <!-- 🖼️ IMAGE 3: Text classification result -->
 ### Text Classification
 <!-- ![Text Classification](images/text_classification.png) -->
-*Add screenshot showing text classification result here*
+<img width="889" height="500" alt="image" src="https://github.com/user-attachments/assets/cfd07f20-fbe3-4392-bbdd-24cc3ed42a6b" />
+
 
 <!-- 🖼️ IMAGE 4: Twitter analysis results -->
 ### Twitter Analysis
 <!-- ![Twitter Analysis](images/twitter_analysis.png) -->
-*Add screenshot showing Twitter analysis results here*
+<img  width="889" height="550" alt="image" src="https://github.com/user-attachments/assets/48a7cc0f-d21d-4353-8e2c-9fd0cedbab6b" />
+
 
 ---
 
